@@ -7,7 +7,7 @@ import org.openqa.selenium.TakesScreenshot;
 import java.nio.charset.StandardCharsets;
 
 import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
-import static dev.greycrane.helpers.Browserstack.getVideoUrl;
+import static helpers.Browserstack.getVideoUrl;
 
 public class Attach {
     @Attachment(value = "{attachName}", type = "text/plain")

@@ -1,6 +1,6 @@
 package helpers;
 
-import dev.greycrane.config.BrowserstackConfig;
+import config.BrowserstackConfig;
 import io.qameta.allure.restassured.AllureRestAssured;
 import org.aeonbits.owner.ConfigFactory;
 
